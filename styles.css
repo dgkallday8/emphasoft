@@ -18,6 +18,7 @@ body {
     height: 100px;
     width: 100%;
     background-image: url("img/header.png");
+    background-size: 100%;
     left: 0;
     top: 0;
     display: flex;
