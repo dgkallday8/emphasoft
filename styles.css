@@ -15,10 +15,10 @@ body {
 
 /*  header  */
 .header {
-    height: 90px;
+    height: 100px;
     width: 100%;
     background-image: url("img/header.png");
-    background-size: 100%;
+    background-size: auto;
     background-repeat: no-repeat;
     left: 0;
     top: 0;
