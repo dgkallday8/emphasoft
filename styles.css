@@ -66,6 +66,17 @@ body {
     border-bottom: #393E6B 2px solid;
 }
 
+.hide {
+    display: none;
+}
+.open {
+    display: flex;
+    justify-content: space-around;
+    color: #393e6b;
+    text-transform: uppercase;
+
+}
+
 /*  setup   */
 .setup {
     /*max-height: 489px;*/
@@ -506,6 +517,20 @@ ul {
         font-size: 20px;
         margin-bottom: 10px;
     }
+
+    .header>i:hover {
+
+    }
+    .open {
+        flex-direction: column;
+    }
+    .open a {
+        margin-left: 55px;
+    }
+    .open a:hover {
+        background-color: #eff4f4;
+    }
+
 }
 @media screen and (max-width: 554px){
     .html-code_list,
