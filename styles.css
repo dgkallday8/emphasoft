@@ -373,6 +373,14 @@ ul {
 .header>i{
     display: none;
 }
+.soc-footer a:hover {
+    color: #ffffff;
+}
+.li-link:hover,
+
+.soc-link:hover {
+    text-decoration: none;
+}
 
 
 @media screen and (max-width: 1120px){
@@ -468,6 +476,8 @@ ul {
         width: 10%;
         color: #3fd6bc;
         font-size: 30px;
+        cursor: pointer;
+
     }
     .title {
         font-size: 20px;
