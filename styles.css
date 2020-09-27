@@ -15,7 +15,7 @@ body {
 
 /*  header  */
 .header {
-    height: 100px;
+    height: 90px;
     width: 100%;
     background-image: url("img/header.png");
     background-size: 100%;
@@ -24,6 +24,7 @@ body {
     top: 0;
     display: flex;
     justify-content: space-between;
+
 }
 .left-header-part {
     display: flex;
