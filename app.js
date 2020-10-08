@@ -11,4 +11,3 @@ extraIcon.addEventListener('click', () => {
     }
 })
 
-

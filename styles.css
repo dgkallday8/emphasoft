@@ -237,11 +237,13 @@ ul {
 .step_icon {
     width: 75px;
     height: 75px;
+    background: #2cd3b8;
+    border-radius: 50%;
 }
 .step {
     display: flex;
     align-items: center;
-    width: 75%;
+    width: 92%;
     margin-bottom: 30px;
 }
 .step p {
@@ -638,4 +640,17 @@ ul {
     .block_text a{
         font-size: 14px;
     }
+}
+
+.svgicon {
+    fill: #ffffff;
+}
+.sn {
+    fill: #3b4269;
+}
+.msn {
+    fill: #3DD3A1;
+}
+.chatbots {
+    fill: #33AFD1;
 }
