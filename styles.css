@@ -645,12 +645,6 @@ ul {
 .svgicon {
     fill: #ffffff;
 }
-.sn {
-    fill: #3b4269;
-}
-.msn {
-    fill: #3DD3A1;
-}
-.chatbots {
-    fill: #33AFD1;
+.fill-white {
+    fill: #ffffff;
 }
