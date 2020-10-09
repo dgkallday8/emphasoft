@@ -642,9 +642,13 @@ ul {
     }
 }
 
-.svgicon {
-    fill: #ffffff;
-}
+/*.svgicon {*/
+/*    fill: #ffffff;*/
+/*}*/
 .fill-white {
     fill: #ffffff;
+}
+.step_icon-size {
+    width: 75px;
+    height: 75px;
 }
