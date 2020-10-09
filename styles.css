@@ -395,6 +395,14 @@ ul {
     text-decoration: none;
 }
 
+.fill-white {
+    fill: #ffffff;
+}
+.step_icon-size {
+    width: 75px;
+    height: 75px;
+}
+
 
 @media screen and (max-width: 1120px){
     .wrapper {
@@ -532,7 +540,10 @@ ul {
     .open a:hover {
         background-color: #eff4f4;
     }
-
+    .step_icon-size {
+        width: 55px;
+        height: 55px;
+    }
 }
 @media screen and (max-width: 554px){
     .html-code_list,
@@ -620,10 +631,11 @@ ul {
         width: 40px;
     }
     .step p {
-        margin-left: 15px;
+        margin-left: 10px;
+        font-size: 12px;
     }
     .step p span {
-        font-size: 16px;
+        font-size: 12px;
     }
     .back_num {
         font-size: 125px;
@@ -639,16 +651,10 @@ ul {
     }
     .block_text a{
         font-size: 14px;
-    }
+    }.step_icon-size {
+         width: 35px;
+         height: 35px;
+     }
 }
 
-/*.svgicon {*/
-/*    fill: #ffffff;*/
-/*}*/
-.fill-white {
-    fill: #ffffff;
-}
-.step_icon-size {
-    width: 75px;
-    height: 75px;
-}
+
